@@ -20,7 +20,7 @@ export default function Projects(props) {
               <strong>Languages:</strong> {project.languages}
             </span>
             <Link to={`/projects/${index}`}>
-              <button className="mt-3 mb-4 rounded-md bg-white border-2 border-blue-950 md:px-3 py-1 text-black">
+              <button className="mt-3 mb-4 rounded-md bg-white border-2 border-blue-950 px-3 py-1 text-black">
                 Go to project
               </button>
             </Link>
