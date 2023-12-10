@@ -15,12 +15,12 @@ export default function Projects(props) {
         >
           <img className="w-full h-fit rounded-t-md mb-3" src={project.image} />
           <div className="px-2">
-            <h3 className="text-2xl my-3">{project.name}</h3>
+            <h3 className="text-lg md:text-2xl my-3">{project.name}</h3>
             <span className="block">
               <strong>Languages:</strong> {project.languages}
             </span>
             <Link to={`/projects/${index}`}>
-              <button className="mt-3 mb-4 rounded-md bg-white border-2 border-blue-950 px-3 py-1 text-black">
+              <button className="mt-3 mb-4 rounded-md bg-white border-2 border-blue-950 md:px-3 py-1 text-black">
                 Go to project
               </button>
             </Link>
