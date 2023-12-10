@@ -15,7 +15,7 @@ export default function HomeFirstPage() {
             Hi Guys, <br className="my-2" /> I'm Htoo Aung Win, a person trying
             to be
             <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-r from-cyan-500 to-blue-500 relative inline-block px-2 m-1">
-              <span className="relative text-white">a software engineer!</span>
+              <span className="relative text-white">a software engineer!</span><br/>
             </span>
             Have dedicated in this career
           </span>
