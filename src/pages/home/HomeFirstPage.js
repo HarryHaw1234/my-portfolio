@@ -11,7 +11,7 @@ export default function HomeFirstPage() {
             icon={faCommentDots}
             className="w-10 h-10 md:w-12 md:h-12 text-slate-700 absolute -top-4 -left-4"
           />
-          <span className="text-xl md:text-2xl font-semibold italic text-center text-slate-900">
+          <span className="text-lg md:text-2xl font-semibold italic text-center text-slate-900">
             Hi Guys, <br className="my-2" /> I'm Htoo Aung Win, a person trying
             to be
             <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-r from-cyan-500 to-blue-500 relative inline-block px-2 m-1">
