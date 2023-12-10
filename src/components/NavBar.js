@@ -7,7 +7,7 @@ export default function NavBar(props) {
         <nav className="flex justify-around items-center">
           <NavLink
             to={"/"}
-            className="py-4 px-3 text-3xl font-bold tracking-widest font-title"
+            className="py-4 px-3 text-2xl lg:text-3xl font-bold tracking-widest font-title"
           >
             FoxyBrag
           </NavLink>
