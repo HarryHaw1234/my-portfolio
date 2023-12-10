@@ -33,7 +33,7 @@ export default function HomeThirdPage(props) {
         >
           <img className="w-full h-fit rounded-t-md mb-3" src={project.image} />
           <div className="px-2">
-            <h3 className="text-2xl my-3">{project.name}</h3>
+            <h3 className="text-lg md:text-2xl my-3">{project.name}</h3>
             <span className="[display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical] overflow-hidden">
               <strong>Languages:</strong> {project.languages}
             </span>
@@ -53,7 +53,7 @@ export default function HomeThirdPage(props) {
   return (
     <div className="min-w-screen max-h-screen flex justify-center items-center bg-green-50 py-20">
       <div className="w-full flex flex-col items-center justify-evenly gap-10">
-        <h1 className="font-title text-3xl font-bold">Testinomals</h1>
+        <h1 className="text-xl font-title md:text-3xl font-bold">Testinomals</h1>
         <Swiper
           modules={[Autoplay, Pagination, A11y, EffectCreative]}
           spaceBetween={30}
