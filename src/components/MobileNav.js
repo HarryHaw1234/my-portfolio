@@ -34,8 +34,8 @@ export default function MobileNav(props) {
             to={"/projects"}
             className={({ isActive }) => [
               isActive
-                ? "px-3 py-2  bg-blue-950 text-white hover:animate-pulse"
-                : "px-3 py-2  hover:bg-blue-950 hover:text-white",
+                ? "px-3 py-3  bg-blue-950 text-white hover:animate-pulse"
+                : "px-3 py-3  hover:bg-blue-950 hover:text-white",
             ]}
             onClick={() => props.setIsActive((bol) => !bol)}
           >
@@ -45,8 +45,8 @@ export default function MobileNav(props) {
             to={"/posts"}
             className={({ isActive }) => [
               isActive
-                ? "px-3 py-2  bg-blue-950 text-white hover:animate-pulse"
-                : "px-3 py-2  hover:bg-blue-950 hover:text-white",
+                ? "px-3 py-3  bg-blue-950 text-white hover:animate-pulse"
+                : "px-3 py-3  hover:bg-blue-950 hover:text-white",
             ]}
             onClick={() => props.setIsActive((bol) => !bol)}
           >
@@ -56,8 +56,8 @@ export default function MobileNav(props) {
             to={"/about"}
             className={({ isActive }) => [
               isActive
-                ? "px-3 py-2  bg-blue-950 text-white hover:animate-pulse"
-                : "px-3 py-2  hover:bg-blue-950 hover:text-white",
+                ? "px-3 py-3  bg-blue-950 text-white hover:animate-pulse"
+                : "px-3 py-3  hover:bg-blue-950 hover:text-white",
             ]}
             onClick={() => props.setIsActive((bol) => !bol)}
           >
