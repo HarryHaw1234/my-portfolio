@@ -19,7 +19,7 @@ export default function MobileNav(props) {
           <div className="flex justify-around items-center pb-3">
             <NavLink
               to={"/"}
-              className="py-4 px-3 text-3xl font-bold tracking-widest font-title"
+              className="text-xl py-4 px-3 md:text-3xl font-bold tracking-widest font-title"
               onClick={() => props.setIsActive((bol) => !bol)}
             >
               FoxyBrag

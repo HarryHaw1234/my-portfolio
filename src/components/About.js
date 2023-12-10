@@ -38,7 +38,7 @@ export default function About() {
           </div>
           <div className="flex items-center py-7">
             <FontAwesomeIcon icon={faEnvelope} className="text-blue-950 text-xl mr-auto" />
-            <span>anonymous1234@gmail.com</span>
+            <span>anonymous@gmail.com</span>
           </div>
           <div className="flex  items-center py-7">
             <FontAwesomeIcon icon={faAddressBook} className="text-blue-950 text-xl mr-auto" />

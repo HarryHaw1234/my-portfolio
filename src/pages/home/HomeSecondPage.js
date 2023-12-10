@@ -38,7 +38,7 @@ export default function HomeSecondPage() {
       <li
         key={index}
         dir={isOdd ? "ltr" : "rtl"}
-        className="group relative flex justify-around  py-3  bg-blue-100 odd:border-l-4  even:border-r-4 rounded-md"
+        className="group relative flex justify-around items-center py-1 md:py-3 bg-blue-100 odd:border-l-4  even:border-r-4 rounded-md"
       >
         <img
           className="h-6 w-6 md:h-10 md:w-10 rounded-full ltr:ml-3 rtl:mr-3 hover:scale-125 transition-all"
